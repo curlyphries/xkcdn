@@ -1,8 +1,7 @@
 language: python
 python:
   - "3.4"
-  - "3.7"
-install: # most of this is taken from @itsron717's travis file
+install:
   - pip install --editable .
 
 script:
