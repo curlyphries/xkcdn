@@ -7,12 +7,15 @@ $ git clone https://github.com/Shrubhog/XKCDn
 $ cd XKCDn
 ```
 * Install dependencies
-* Run the python
 ```
-$ python xkcdn.py
+$ pip install --editable .
+```
+* Run the command
+```
+$ xkcdn --help
 ```
 ## About
-Currently all this does is gets you the latest comic and saves it to disk.
+Currently all this does is gets you the latest comic and saves it to your specified file.
 ### What's the "n" for?
 It's a CDN for [XKCD](https://xkcd.com). It's not really a CDN, but it's for novelty.
 ### Why not use [XKCD from @itsron717](https://github.com/itsron717/XKCD)?

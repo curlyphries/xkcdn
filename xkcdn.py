@@ -3,12 +3,13 @@ import json
 import requests
 
 @click.command()
-def xkcdn():
+@click.option('--output', default=None, help='Output file')
+def cli(output):
     r = requests.get("http://xkcd.com/info.0.json")
     data = json.loads(r.text)
-    file = open(str(data['num']) + ".png", 'wb')
+    if (output == None):
+        file = open(str(data['num']) + ".png", 'wb')
+    else:
+        file = open(str(output), 'wb')
     res = requests.get(data["img"])
     file.write(res.content)
-
-if __name__ == '__main__':
-    xkcdn()
