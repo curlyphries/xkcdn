@@ -1,5 +1,18 @@
 # XKCDn
 Get your daily dose of [XKCD](https://xkcd.com/) delivered right to you in whatever format you choose.
+## How To
+* Clone the master branch
+```
+$ git clone https://github.com/Shrubhog/XKCDn
+$ cd XKCDn
+```
+* Install dependencies
+* Run the python
+```
+$ python xkcdn.py
+```
+## About
+Currently all this does is gets you the latest comic and saves it to disk.
 ### What's the "n" for?
 It's a CDN for [XKCD](https://xkcd.com). It's not really a CDN, but it's for novelty.
 ### Why not use [XKCD from @itsron717](https://github.com/itsron717/XKCD)?
