@@ -6,4 +6,4 @@ install: # most of this is taken from @itsron717's travis file
   - pip install --editable .
 
 script:
-  - xkcd
+  - xkcdn
