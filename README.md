@@ -21,4 +21,4 @@ It's a CDN for [XKCD](https://xkcd.com). It's not really a CDN, but it's for nov
 ### Why not use [XKCD from @itsron717](https://github.com/itsron717/XKCD)?
 I have no problem with you using it! I'm happy someone had the idea before me, I just wanted some more options, so I'm making my own! @itsron717's xkcd is awesome.
 
-The code is licensed under the MIT license, but XKCD is licensed under a Creative Commons Attribution-NonCommercial 2.5 License. All comics, characters, or art belong to Randall Munroe.
+The code is licensed under the [MIT license](LICENSE.md), but XKCD is licensed under a [Creative Commons Attribution-NonCommercial 2.5 License](https://xkcd.com/license.html). All comics, characters, or art belong to Randall Munroe.
