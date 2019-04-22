@@ -1,5 +1,5 @@
 # XKCDn
-Get your daily dose of [XKCD](https://xkcd.com/) delivered right to you in whatever format you choose.
+Get [XKCD](https://xkcd.com/) delivered right to you in whatever format you choose.
 ## How To
 * Clone the master branch
 ```
