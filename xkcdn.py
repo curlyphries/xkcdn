@@ -13,3 +13,4 @@ def cli(output):
         file = open(str(output), 'wb')
     res = requests.get(data["img"]) # get the comic
     file.write(res.content) # write it.
+    print("Title Text: " + data['alt'])
