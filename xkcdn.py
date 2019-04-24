@@ -15,7 +15,7 @@ def cli(output, num, popup):
         r = requests.get("http://xkcd.com/info.0.json") # get latest comic
     else:
         try: 
-            r = requests.get("https://xkcd.com/{}/info.0.json".format(str(num)))
+            r = requests.get("https://xkcd.com/{}/info.0.json".format(num))
         except requests.ConnectionError:
             print("Comic Not Found")
     data = json.loads(r.text) # make it a dict
