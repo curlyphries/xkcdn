@@ -17,7 +17,7 @@ def cli(output, num, popup):
         try: 
             r = requests.get("https://xkcd.com/{}/info.0.json".format(num))
         except requests.ConnectionError:
-            print("Comic Not Found")
+            raise Exception("404 Not Found")
     data = json.loads(r.text) # make it a dict
     res = requests.get(data["img"]) # get the comic
     if (popup != True):
