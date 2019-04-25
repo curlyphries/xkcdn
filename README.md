@@ -17,7 +17,7 @@ $ pip install --editable .
 $ xkcdn --help
 ```
 ## About
-Currently all this does is gets you the latest comic and saves it to your specified file.
+Currently all this does is gets you the latest comic or the comic of your choice and saves it to your specified file or puts it in a popup.
 ### What's the "n" for?
 It's a CDN for [xkcd](https://xkcd.com). It's not really a CDN, but it's for novelty.
 ### Why not use [XKCD from @itsron717](https://github.com/itsron717/XKCD)?
