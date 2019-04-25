@@ -1,5 +1,5 @@
 # xkcdn 
-[![Build Status](https://travis-ci.com/Shrubhog/XKCDn.svg?branch=master)](https://travis-ci.com/Shrubhog/XKCDn)
+[![Build Status](https://travis-ci.com/Shrubhog/xkcdn.svg?branch=master)](https://travis-ci.com/Shrubhog/xkcdn)
 
 Get [xkcd](https://xkcd.com/) delivered right to you in whatever format you choose.
 ## How To
