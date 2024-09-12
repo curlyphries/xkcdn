@@ -5,7 +5,7 @@ Get [xkcd](https://xkcd.com/) delivered right to you in whatever format you choo
 ## How To
 * Clone the master branch
 ```
-$ git clone https://github.com/Shrubhog/xkcdn
+$ git clone https://github.com/nogarcia/xkcdn
 $ cd xkcdn
 ```
 * Install dependencies
